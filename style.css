@@ -55,3 +55,73 @@ body{
     font-weight: 700;
 }
 /* menu end */
+/* banner start */
+.banner{
+    padding: 64px 160px;
+    border-radius: 24px;
+    border: 3px solid #FFF;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 12px;
+}
+.dependable{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.dependable h2{
+    color: #0F0F0F;
+    font-size: 48px;
+    font-weight: 800;
+}
+.dependable p{
+    color: #0F0F0F;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn{
+   display: flex;
+   gap: 16px;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 24px;
+}
+.input{
+    text-align: center;
+}
+.input input{
+    color: #9CA3AF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 18px;
+    width: 600px;
+    border: none;
+    border-radius:24px;
+}
+.input input:focus{
+    outline: none;
+}
+.search-now{
+
+}
+.search-now a{
+    text-decoration: none;
+    background: #176AE5;
+    border-radius: 99px;
+    padding: 13px 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.banner-img{
+    display: flex;
+    justify-content: center;
+    gap: 24px;   
+}
+.img1{
+    width: 40%;
+}
+.img1 img{
+    width: 100%;
+}
+/* banner end */
