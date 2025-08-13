@@ -1,0 +1,25 @@
+<header>
+        <!-- menu start -->
+         <div class="main-menu">
+            <div class="phudu">
+            <div class="phudu-img">
+                <img src="img/Plus.svg" alt="Plus.svg">
+            </div>
+            <div class="phudu-content">
+                <h4>Phudu</h4>
+            </div>
+         </div>
+         <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">My-Bookings</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+         </div>
+         <div class="menu-btn">
+            <a href="#">Emergency</a>
+         </div>
+         </div>
+        <!-- menu end -->
+    </header>

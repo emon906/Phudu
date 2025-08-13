@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background: #EFEFEF;
+}
+/* menu start */
+.main-menu{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding: 20px 160px;
+}
+.phudu{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.phudu-img img{
+
+}
+.phudu-content h4{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0F0F0F;
+}
+.menu{
+
+}
+.menu ul{
+    display: flex;
+    gap: 48px;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgba(15, 15, 15, 0.70);
+    font-size: 18px;
+    font-weight: 500;
+}
+.menu-btn{
+
+}
+.menu-btn a{
+    text-decoration: none;
+    background: #176AE5;
+    border-radius: 99px;
+    padding: 15px 30px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* menu end */
