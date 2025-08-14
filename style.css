@@ -287,3 +287,35 @@ hr{
 }
 /* medical end */
 /* section end */
+/* footer start */
+footer{
+  text-align: center;
+  margin-top: 80px;
+  background: #FFF;
+  padding: 80px 100px;
+}
+.footer-container{
+
+}
+.btn{
+     display: flex;
+     text-align: center;
+     gap: 48px;
+     margin-top: 32px;
+     margin-bottom: 32px;
+}
+.home a{
+    text-align: center;
+    text-decoration: none;
+    color: rgba(15, 15, 15, 0.70);
+    font-size: 18px;
+    font-weight: 500;
+}
+hr{
+        
+}
+.brand-img img{
+    margin-top: 32px;
+    gap: 24px;
+}
+/* footer end */
