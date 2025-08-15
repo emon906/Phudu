@@ -23,6 +23,32 @@
     font-size: 16px;
 }
 /* menu end */
+/* banner start */
+.banner{
+    padding: 30px 40px;
+}
+.dependable{
+    margin-bottom: 0;
+}
+.dependable h2{
+    font-size: 20px;
+}
+.dependable p{
+    font-size: 16px;
+}
+.search-now a{
+    font-size: 16px;
+    padding: 13px 20px;
+}
+.input input{
+    width: 210px;
+}
+.btn{
+    gap: 9px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/* banner end */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -49,6 +75,27 @@
     font-size: 16px;
 }
 /* menu end */
+/* banner start */
+.banner{
+    padding: 30px 40px;
+}
+.dependable h2{
+    font-size: 20px;
+}
+.dependable p{
+    font-size: 16px;
+}
+.search-now a{
+    font-size: 16px;
+    padding: 13px 20px;
+}
+.input input{
+    width: 212px;
+}
+.btn{
+    gap: 9px;
+}
+/* banner end */
 }
 
  /* Medium devices (tablets, 768px and up) */ 
@@ -69,6 +116,23 @@
     gap: 25px;
 }
 /* menu end */
+/* banner start */
+.banner{
+    padding: 55px 60px;
+}
+.dependable h2{
+    font-size: 29px;
+}
+.search-now a{
+    font-size: 17px;
+}
+.input input{
+    width: 329px;
+}
+.btn{
+    gap: 13px;
+}
+/* banner end */
 
  
 }
@@ -91,6 +155,23 @@
     gap: 35px;
 }
 /* menu end */
+/* banner start */
+.banner{
+    padding: 64px 130px;
+}
+.dependable h2{
+    font-size: 38px;
+}
+.search-now a{
+    font-size: 18px;
+}
+.input{
+    width: 440px;
+}
+.btn{
+    gap: 13px;
+}
+/* banner end */
 
 
 }
