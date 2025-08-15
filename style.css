@@ -311,11 +311,20 @@ footer{
     font-size: 18px;
     font-weight: 500;
 }
-hr{
-        
+.f-hr{
+    width: 1000px; 
+    margin: auto;   
 }
-.brand-img img{
-    margin-top: 32px;
+.brand-img{
+    display: flex;
     gap: 24px;
+    justify-content: center;
+    margin-top: 32px;
+}
+.f-img{
+    text-align: center;
+}
+.f-img img{
+
 }
 /* footer end */
