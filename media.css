@@ -1,0 +1,107 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+/* menu start */
+.main-menu{
+    gap: 18px;
+    padding: 10px 4px;
+}
+.phudu{
+    gap: 10px;
+}
+.phudu-content h4{
+    font-size: 19px;
+}
+.menu-btn a{
+    padding: 10px 10px;
+    font-size: 16px;
+}
+.menu ul{
+    gap: 6px;
+}
+.menu ul li a{
+    font-size: 16px;
+}
+/* menu end */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+ /* menu start */
+.main-menu{
+    gap: 11px;
+    padding: 15px 10px;
+}
+.phudu{
+    gap: 10px;
+}
+.phudu-content h4{
+    font-size: 20px;
+}
+.menu-btn a{
+    padding: 10px 10px;
+    font-size: 16px;
+}
+.menu ul{
+    gap: 8px;
+}
+.menu ul li a{
+    font-size: 16px;
+}
+/* menu end */
+}
+
+ /* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) and (max-width: 991.98px) {
+ /* menu start */
+.main-menu{
+    gap: 29px;
+    padding: 20px 26px;
+}
+.phudu-content h4{
+    font-size: 24px;
+}
+.menu-btn a{
+    padding: 15px 20px;
+    font-size: 16px;
+}
+.menu ul{
+    gap: 25px;
+}
+/* menu end */
+
+ 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* menu start */
+.main-menu{
+    gap: 65px;
+    padding: 20px 89px;
+}
+.phudu-content h4{
+    font-size: 28px;
+}
+.menu-btn a{
+    padding: 15px 25px;
+    font-size: 17px;
+}
+.menu ul{
+    gap: 35px;
+}
+/* menu end */
+
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399.98px){
+ 
+}
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+ 
+ 
+
+}
