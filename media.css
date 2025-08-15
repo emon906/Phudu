@@ -97,6 +97,21 @@
     font-size: 16px;
 }
 /* medical end */ 
+/* footer start */
+footer{
+    padding: 60px 0px;
+}
+.btn{
+    gap: 25px;
+    margin-bottom: 20px;
+}
+.brand-img{
+    margin-top: 20px;
+}
+.f-hr{
+    width: 500px;
+}
+/* footer end */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -192,6 +207,14 @@
     font-size: 16px;
 }
 /* medical end */ 
+/* footer start */
+footer{
+    padding: 50px 0px;
+}
+.f-hr{
+    width: 500px;
+}
+/* footer end */
 }
 
  /* Medium devices (tablets, 768px and up) */ 
@@ -275,6 +298,14 @@
     font-size: 16px;
 }
 /* medical end */ 
+/* footer start */
+footer{
+    padding: 60px 0px;
+}
+.f-hr{
+    width: 650px;
+}
+/* footer end */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -343,6 +374,14 @@
     font-size: 18px;
 }
 /* medical end */
+/* footer start */
+footer{
+    padding: 80px 0px;
+}
+.f-hr{
+    width: 800px;
+}
+/* footer end */
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
