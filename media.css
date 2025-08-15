@@ -78,6 +78,25 @@
     padding: 15px 25px;
 }
 /* section end */
+/* medical start */
+
+.medical h3{
+    font-size: 21px;
+}
+.service{
+    justify-content: center;
+    gap: 10px;
+}
+.box1{
+    padding: 15px 30px;
+}
+.box1 h5{
+    font-size: 21px;
+}
+.box1 p{
+    font-size: 16px;
+}
+/* medical end */ 
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -154,6 +173,25 @@
     padding: 15px 25px;
 }
 /* section end */
+/* medical start */
+
+.medical h3{
+    font-size: 21px;
+}
+.service{
+    justify-content: center;
+    gap: 10px;
+}
+.box1{
+    padding: 15px 30px;
+}
+.box1 h5{
+    font-size: 21px;
+}
+.box1 p{
+    font-size: 16px;
+}
+/* medical end */ 
 }
 
  /* Medium devices (tablets, 768px and up) */ 
@@ -220,7 +258,23 @@
     padding: 15px 25px;
 }
 /* section end */
- 
+/* medical start */
+.medical h3{
+    font-size: 27px;
+}
+.service{
+    justify-content: center;
+}
+.box1{
+    padding: 15px 30px;
+}
+.box1 h5{
+    font-size: 35px;
+}
+.box1 p{
+    font-size: 16px;
+}
+/* medical end */ 
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -272,7 +326,23 @@
 
 }
 /* section end */
-
+/* medical start */
+.medical h3{
+    font-size: 35px;
+}
+.service{
+    justify-content: center;
+}
+.box1{
+    padding: 15px 30px;
+}
+.box1 h5{
+    font-size: 56px;
+}
+.box1 p{
+    font-size: 18px;
+}
+/* medical end */
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
