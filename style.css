@@ -53,6 +53,12 @@ body{
     color: white;
     font-size: 20px;
     font-weight: 700;
+    transition: 0.3s;
+}
+.menu-btn a:hover{
+    background: #FFF;
+    color: #176AE5;
+    border: 1px solid rgba(23, 106, 229, 0.20);
 }
 /* menu end */
 /* banner start */
@@ -112,6 +118,12 @@ body{
     color: white;
     font-size: 20px;
     font-weight: 700;
+    transition: 0.3s;
+}
+.search-now a:hover{
+    background: #FFF;
+    color: #176AE5;
+    border: 1px solid rgba(23, 106, 229, 0.20);
 }
 .banner-img{
     display: flex;
@@ -192,7 +204,11 @@ hr{
     background: #FFF;
     border-radius: 99px;
     text-align: center;
-   
+    transition: 0.3s;
+}
+.details a:hover{
+    background: #176AE5;
+    color: white;
 }
 .doc-btn{
     gap: 10px;
@@ -244,6 +260,12 @@ hr{
     font-weight: 500;
     padding: 15px 30px;
     border-radius: 99px;
+    transition: 0.3s;
+}
+.View a:hover{
+    background: #FFF;
+    color: #176AE5;
+    border: 1px solid rgba(23, 106, 229, 0.20);
 }
 /* medical start */
 .medical{
