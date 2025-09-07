@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phudu</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
+    <!-- tailwind -->
+     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind -->
     <!-- data aos -->
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- data aos -->
@@ -14,252 +15,128 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
     <!-- google font -->
+     <!-- fevicon -->
+      <link rel="shortcut icon" href="img/Plus.svg" type="image/x-icon">
+     <!-- fevicon -->
+     <style>
+        .font-jakarta{font-family: "Plus Jakarta Sans", sans-serif;}
+     </style>
 </head>
-<body>
+<body class="bg-[#EFEFEF] font-jakarta">
     <!-- header start -->
-    <header>
+    <header class="px-[150px] py-[20px]">
         <!-- menu start -->
-          <div class="main-menu">
-            <div class="phudu">
-            <div class="phudu-img">
-                <img src="img/Plus.svg" alt="Plus.svg">
-            </div>
-            <div class="phudu-content">
-                <h4>Phudu</h4>
-            </div>
+           <div class="flex justify-between items-center py-[20px] ">
+            <div class="flex gap-4 items-center">
+            <img src="img/Plus.svg" alt="Plus.svg">
+              <h4 class="text-2xl text-[#0F0F0F] font-extrabold">Phudu</h4>
          </div>
-         <div class="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">My-Bookings</a></li>
-                <li><a href="#">Blogs</a></li>
-                <li><a href="#">Contact Us</a></li>
+            <ul class="flex gap-12 items-center">
+                <li><a class="text-[rgba(15, 15, 15, 0.70)] text-lg font-medium" href="#">Home</a></li>
+                <li><a class="text-[rgba(15, 15, 15, 0.70)] text-lg font-medium" href="#">My-Bookings</a></li>
+                <li><a class="text-[rgba(15, 15, 15, 0.70)] text-lg font-medium" href="#">Blogs</a></li>
+                <li><a class="text-[rgba(15, 15, 15, 0.70)] text-lg font-medium" href="#">Contact Us</a></li>
             </ul>
-         </div>
-         <div class="menu-btn">
-            <a href="#">Emergency</a>
-         </div>
+            <a href="#" class="text-[#176AE5] font-bold text-[20px] bg-[#FFF] px-[30px] py-[15px] rounded-[99px]">Emergency</a>
+            <img class="hidden" src="img/bars-3.svg" alt="">
          </div> 
         <!-- menu end -->
          <!-- banner start -->
-            <div class="banner">
-            <div class="dependable">
-            <h2>Dependable Care, Backed by Trusted <br> Professionals.</h2>
-            <p>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience. Whether it's a <br> routine checkup or urgent consultation, 
+            <div class="px-[130px] py-[64px] bg-slate-200 rounded-3xl border-white">   
+            <h2 class="text-center mb-6 text-[#0F0F0F] text-5xl font-extrabold">Dependable Care, Backed by Trusted <br> Professionals.</h2>
+            <p class="text-[#0F0F0F] text-base text-center font-medium mb-6">Our platform connects you with verified, experienced doctors across various specialties — all at your convenience. Whether it's a routine checkup or urgent consultation, 
                 book appointments in minutes and receive quality care you can trust.</p>
-          </div>
-         <div class="btn">
-             <div class="input">
-            <input type="Search any doctor..." placeholder="Search any doctor...">
-          </div>
-          <div class="search-now">
-            <a href="#">Search Now</a>
-          </div>
+         <div class="flex justify-center gap-4 mb-6">
+            <input class="text-[#9CA3AF] w-[600px] py-4 px-[18px] rounded-3xl font-normal outline-none" type="Search any doctor..." placeholder="Search any doctor...">
+            <a class="text-[#176AE5] font-bold text-[20px] bg-[#FFF] px-[30px] py-[15px] rounded-[99px]" href="#">Search Now</a>
          </div>
-         <div class="banner-img">
-            <div class="img1">
+         <div class="flex gap-6 justify-center">
+                <img class="" src="img/Frame 8.png" alt="Frame 8">
                 <img src="img/Frame 8.png" alt="Frame 8">
-            </div>
-            <div class="img1">
-                <img src="img/Frame 8.png" alt="Frame 8">
-            </div>
          </div>
           </div>  
          <!-- banner end -->
     </header>
     <!-- header end -->
      <!-- section start -->
-      <section>
+      <section class="px-[150px] py-[20px]">
         <!-- view all doctors start -->
- 
-        <div class="best">
-            <h3>Our Best Doctors</h3>
-            <p>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience. 
+            <h3 class="text-[#0F0F0F] text-center text-[40px] font-extrabold mb-4">Our Best Doctors</h3>
+            <p class="text-[#0F0F0F] text-center text-base font-normal ">Our platform connects you with verified, experienced doctors across various specialties — all at your convenience. 
                 Whether it's a <br> routine checkup or urgent consultation, 
                 book appointments in minutes and receive quality care you can trust.</p>
-        </div>
-        <div class="Doctor">
-            <div class="Main-Doctor" data-aos="zoom-in" data-aos-duration="3000">
-                <div class="doctor-box1">
-                <img src="img/Rectangle 14.png" alt="Rectangle 14">
-               <div class="doc-btn">
-                 <a href="#" class="avaliable">Available</a>
-                <a href="#" class="experience">5+ Years Experience</a>
-               </div>
-               <h4> Dr. Cameron Williamson</h4>
-               <p>MBBS, MD - General Medicine, DNB</p>
-               <hr>
-               <div class="reg">
+        <div class="flex justify-center mb-14">
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 sm: grid-cols-1 gap-6" data-aos="zoom-in" data-aos-duration="3000">
+                <div class="p-8 bg-[#fff] rounded-2xl">
+                <img class="mb-4" src="img/Rectangle 14.png" alt="Rectangle 14">
+                 <a href="#" class="px-[14px] py-[7px] text-[#09982F] text-sm rounded-3xl mr-4 font-medium bg-[rgba(9, 152, 47, 0.10)] border-2 border-green-800">Available</a>
+                <a href="#" class="px-[14px] py-[7px] text-[#176AE5] text-sm rounded-3xl mr-4 font-medium bg-[rgba(23, 106, 229, 0.10)] border-2 border-sky-900">5+ Years Experience</a>
+               <h4 class="text-[#0F0F0F] text-[24px] font-extrabold mb-3 mt-3"> Dr. Cameron Williamson</h4>
+               <p class="text-[rgba(15, 15, 15, 0.60)] text-[18px] mb-3 font-medium">MBBS, MD - General Medicine, DNB</p>
+               <hr class="mb-3">
+               <div class="flex items-center gap-3 mb-3">
                 <img src="img/r.svg" alt="R.svg">
-                <p>Reg No: BD 12451254</p>
-               </div>
-               <div class="details">
-                <a href="#">View Details</a>
-               </div>
-            </div>
-                <div class="doctor-box1">
-                <img src="img/Rectangle 14.png" alt="Rectangle 14">
-               <div class="doc-btn">
-                 <a href="#" class="avaliable">Available</a>
-                <a href="#" class="experience">5+ Years Experience</a>
-               </div>
-               <h4> Dr. Cameron Williamson</h4>
-               <p>MBBS, MD - General Medicine, DNB</p>
-               <hr>
-               <div class="reg">
-                <img src="img/r.svg" alt="R.svg">
-                <p>Reg No: BD 12451254</p>
-               </div>
-               <div class="details">
-                <a href="#">View Details</a>
-               </div>
-            </div>
-                <div class="doctor-box1">
-                <img src="img/Rectangle 14.png" alt="Rectangle 14">
-               <div class="doc-btn">
-                 <a href="#" class="avaliable">Available</a>
-                <a href="#" class="experience">5+ Years Experience</a>
-               </div>
-               <h4> Dr. Cameron Williamson</h4>
-               <p>MBBS, MD - General Medicine, DNB</p>
-               <hr>
-               <div class="reg">
-                <img src="img/r.svg" alt="R.svg">
-                <p>Reg No: BD 12451254</p>
-               </div>
-               <div class="details">
-                <a href="#">View Details</a>
-               </div>
-            </div>
-                <div class="doctor-box1">
-                <img src="img/Rectangle 14.png" alt="Rectangle 14">
-               <div class="doc-btn">
-                 <a href="#" class="avaliable">Available</a>
-                <a href="#" class="experience">5+ Years Experience</a>
-               </div>
-               <h4> Dr. Cameron Williamson</h4>
-               <p>MBBS, MD - General Medicine, DNB</p>
-               <hr>
-               <div class="reg">
-                <img src="img/r.svg" alt="R.svg">
-                <p>Reg No: BD 12451254</p>
-               </div>
-               <div class="details">
-                <a href="#">View Details</a>
-               </div>
-            </div>
-                <div class="doctor-box1">
-                <img src="img/Rectangle 14.png" alt="Rectangle 14">
-               <div class="doc-btn">
-                 <a href="#" class="avaliable">Available</a>
-                <a href="#" class="experience">5+ Years Experience</a>
-               </div>
-               <h4> Dr. Cameron Williamson</h4>
-               <p>MBBS, MD - General Medicine, DNB</p>
-               <hr>
-               <div class="reg">
-                <img src="img/r.svg" alt="R.svg">
-                <p>Reg No: BD 12451254</p>
-               </div>
-               <div class="details">
-                <a href="#">View Details</a>
-               </div>
-            </div>
-                <div class="doctor-box1">
-                <img src="img/Rectangle 14.png" alt="Rectangle 14">
-               <div class="doc-btn">
-                 <a href="#" class="avaliable">Available</a>
-                <a href="#" class="experience">5+ Years Experience</a>
-               </div>
-               <h4> Dr. Cameron Williamson</h4>
-               <p>MBBS, MD - General Medicine, DNB</p>
-               <hr>
-               <div class="reg">
-                <img src="img/r.svg" alt="R.svg">
-                <p>Reg No: BD 12451254</p>
-               </div>
-               <div class="details">
-                <a href="#">View Details</a>
-               </div>
-            </div>
-                
+                <p class="text-[rgba(15, 15, 15, 0.70)] text-[18px] font-medium">Reg No: BD 12451254</p>
+               </div>       
+                <a class="py-3 px-[20px] block bg-white text-[#176AE5] border-2 text-center text-[20px] font-bold border-blue-700 rounded-3xl" href="#">View Details</a>
+            </div> 
             </div>
         </div>
-        <div class="View">
-            <a href="#">View All Doctors</a>
-        </div>  
+            <div class="flex justify-center">
+                 <a class="px-[30px] py-[15px] text-[#FFF] bg-[#176AE5] font-bold text-[20px] rounded-3xl" href="#">View All Doctors</a>
+            </div>
          <!-- view all doctors end -->
           <!-- medical service start -->
-            <div class="medical">
-            <h3>We Provide Best Medical Services</h3>
-            <p>Our platform connects you with verified, 
+           
+            <h3 class="mt-[32px] mb-4 text-[#0F0F0F] text-[40px] font-extrabold text-center">We Provide Best Medical Services</h3>
+            <p class="text-[#0F0F0F] text-base text-center font-normal">Our platform connects you with verified, 
                 experienced doctors across various specialties — all at your convenience. </p>
-           </div>
-           <div class="service">
-            <div class="box1">
-                <img src="img/health-pen.svg" alt="health-pen">
-                <h5>199+</h5>
-                <p>Total Doctors</p>
+           
+           <div class="flex justify-evenly gap-6 mb-4">
+            <div class="bg-[#fff] rounded-2xl px-[50px] py-[40px]">
+                <img class="mb-4" src="img/health-pen.svg" alt="health-pen">
+                <h5 class="mb-3 font-extrabold text-6xl text-[#0F0F0F] mb-3">199+</h5>
+                <p class="font-semibold text-base text-[rgba(15, 15, 15, 0.60)]">Total Doctors</p>
             </div>
-            <div class="box1">
-                <img src="img/star.svg" alt="star">
-                <h5>467+</h5>
-                <p>Total Reviews</p>
+            <div class="bg-[#fff] rounded-2xl px-[50px] py-[40px]">
+                <img class="mb-4" src="img/star.svg" alt="star">
+                <h5 class="mb-3 font-extrabold text-6xl text-[#0F0F0F] mb-3">467+</h5>
+                <p class="font-semibold text-base text-[rgba(15, 15, 15, 0.60)]">Total Reviews</p>
             </div>
-            <div class="box1">
-                <img src="img/health.svg" alt="health">
-                <h5>1900+</h5>
-                <p>Petients</p>
+            <div class="bg-[#fff] rounded-2xl px-[50px] py-[40px]">
+                <img class="mb-4" src="img/health.svg" alt="health">
+                <h5 class="mb-3 font-extrabold text-6xl text-[#0F0F0F] mb-3">1900+</h5>
+                <p class="font-semibold text-base text-[rgba(15, 15, 15, 0.60)]">Petients</p>
             </div>
-            <div class="box1">
-                <img src="img/men.svg" alt="men">
-                <h5>300+</h5>
-                <p>Total Stuffs</p>
+            <div class="bg-[#fff] rounded-2xl px-[50px] py-[40px]">
+                <img class="mb-4" src="img/men.svg" alt="men">
+                <h5 class="mb-3 font-extrabold text-6xl text-[#0F0F0F] mb-3">300+</h5>
+                <p class="font-semibold text-base text-[rgba(15, 15, 15, 0.60)]">Total Stuffs</p>
             </div>
-           </div>   
+           </div>    
           <!-- medical service end -->
       </section>
      <!-- section end -->
       <!-- footer start -->
-       <footer>
-       <div class="footer-container">
-            <div class="phudu-img">
-                <img src="img/Plus.svg" alt="Plus.svg">
-            </div>
-            <div class="phudu-content">
-                <h4>Phudu</h4>
-            </div>
-         </div>
-         <div class="btn">
-               <div class="home">
-                 <a href="#">Home</a>
-               </div>
-                <div class="home">
-                    <a href="#">My-Bookings</a>
-                </div>
-               <div class="home">
-                 <a href="#">Blogs</a>
-               </div>
-                <div class="home">
-                    <a href="#">Contact Us</a>
-                </div>
-
-         </div>
-         <hr class="f-hr">
-         <div class="brand-img">
-           <div class="f-img">
-             <img src="img/facebook.svg" alt="facebook">
-           </div>
-          <div class="f-img">
-              <img src="img/linkedin-icon 1.svg" alt="linkedin">
+       <footer class="bg-[#fff] px-[100px] py-[80px]">
+        <div class="flex justify-center ">
+         <img class="mb-3" src="img/Plus.svg" alt="Plus.svg">
+        </div>
+         <h4 class="text-2xl text-center text-[#0F0F0F] font-extrabold">Phudu</h4>
+          <div class="flex justify-center mb-6">
+            <a class="text-[rgba(15, 15, 15, 0.70)] text-lg font-medium mr-12" href="#">Home</a>
+            <a class="text-[rgba(15, 15, 15, 0.70)] text-lg font-medium mr-12" href="#">My-Bookings</a>
+            <a class="text-[rgba(15, 15, 15, 0.70)] text-lg font-medium mr-12" href="#">Blogs</a>
+            <a class="text-[rgba(15, 15, 15, 0.70)] text-lg font-medium mr-12" href="#">Contact Us</a>
           </div>
-            <div class="f-img">
-                <img src="img/youtube.svg" alt="youtube">
-            </div>
-            <div class="f-img">
-                <img src="img/twitter-logo-2 3.svg" alt="twitter">
-            </div>
-         </div>
+         <hr class="w-[1000px] m-auto">
+         <div class="flex justify-center gap-6 mt-3">
+           
+        <img src="img/facebook.svg" alt="facebook">
+        <img src="img/linkedin-icon 1.svg" alt="linkedin">
+         <img src="img/youtube.svg" alt="youtube">
+        <img src="img/twitter-logo-2 3.svg" alt="twitter">
+     </div>            
        </footer> 
       <!-- footer end -->
        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
